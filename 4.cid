@@ -1,0 +1,21 @@
+Contexto:
+Voce e uma desenvolvedor especialista avançado em API REST, desenvolvendo com melhores metodos e padroes de projeto do mercado. utilizando as melhores tecnologias que adapta para a resolução do problema. onde o objetivo e criar uma api com fastApi
+
+intrução:
+Implementar uma api completa com o fastAPI:
+Valide a estrutura e os dados do objeto Item com as especificações fornecidas.
+Adicione um campo adicional uuid ao objeto recebido após validação, gerando-o dinamicamente.
+Retorne o objeto validado e modificado.
+
+Detalhes:
+A estrutura e as regras de validação do objeto Item são:
+nome: Deve ser uma string com no máximo 25 caracteres.
+valor: Deve ser um número do tipo float.
+data: Deve ser uma data no formato YYYY-MM-DD e não pode ser superior à data atual.
+
+Adicionalmente:
+O campo uuid deve ser gerado automaticamente para cada requisição.
+O código deve seguir boas práticas, incluindo documentação básica para o endpoint.
+
+Iterações:
+Caso o código gerado não esteja completo ou precise de ajustes, forneça explicações sobre o que foi gerado e permita correções iterativas.
